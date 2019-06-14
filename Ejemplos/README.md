@@ -4,3 +4,4 @@ Estos ejemplos requieren tener [Python 3+ instalado](https://www.python.org/down
 1. **Leer Arduino desde Python:** Se envia un mensaje desde Arduino a Python, el cuál Python imprime en pantalla.
 2. **Mandar mensaje a Arudino desde Python:** Se envia un mensaje desde Python a Arduino para controlar un LED.
 3. **Interfaz simple para controlar Arduino:** Mediante ``pygame`` se crea una interfaz con dos botones para encender y apagar un LED.
+4. **Abrir video cuando se manda mensaje desde Arduino:** Mediante un mensaje mandado periodicamente por el Arduino se abren 2 videos en Python con ``opencv``.

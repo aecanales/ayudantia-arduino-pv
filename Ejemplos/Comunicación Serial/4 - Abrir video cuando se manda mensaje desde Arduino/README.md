@@ -1,0 +1,3 @@
+# 4 - Abrir video cuando se manda mensaje desde Arduino 
+Mediante un mensaje mandado periodicamente por el Arduino se abren 2 videos en Python con ``opencv``. Actualmente está programado como un ciclo que abre un video cada 5 segundos, pero se puede programar para que se active e.j. con un sensor de proximidad.
+La velocidad de reproducción del video dependerá del procesador del computador y la calidad del video. Ojo que el video se abre automáticamente en pantalla completa. Si quedan atrapados, pueden escapar con las teclas ALT+TAB.
