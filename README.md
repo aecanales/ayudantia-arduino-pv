@@ -17,3 +17,13 @@ Estos ejemplos requieren tener [Python 3+ instalado](https://www.python.org/down
 2. **Mandar mensaje a Arudino desde Python:** Se envia un mensaje desde Python a Arduino para controlar un LED.
 3. **Interfaz simple para controlar Arduino:** Mediante ``pygame`` se crea una interfaz con dos botones para encender y apagar un LED.
 4. **Abrir video cuando se manda mensaje desde Arduino:** Mediante un mensaje mandado periodicamente por el Arduino se abren 2 videos en Python con ``opencv``.
+
+## Preguntas frecuentes
+
+### ¿Dónde puedo conseguir componentes electrónicos? 
+Puedes pedir componentes del [stock del Major](https://tinyurl.com/StockIDI) enviándome un email. Si necesitas un componente que no tenemos, te puedo recomendar estas tiendas que me han funcionado bien:
+* [SomosMaker](https://www.somosmakers.cl/)
+* [AMG Kits](https://amgkits.com/)
+* [AFEL](https://afel.cl/?v=5bc574a47246)
+
+Si buscan tiendas de Arduino en Google probablemente se topen con [MCI Electronics,](https://www.mcielectronics.cl/) el cual es una buena tienda, pero bastante más cara que las otras. Lo recomiendo sólo si el producto está con descuento o es el único lugar dónde encontraron el componente que necesitan.
