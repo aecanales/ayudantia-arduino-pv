@@ -7,7 +7,7 @@ Colección de clases y ejemplos de código de la ayudantía de Arduino del curso
 * **Arduino Avanzado I:** Clase teoríca. Introducción de más conceptos de programación. Muestra de actuadores, sensores y shields. Explicación de la utilidad de un Raspberry Pi.
 
 ## Ejemplos
-## Básicos
+### Básicos
 Ejemplos que demuestran los comandos básicos para interactuar con un Arduino.
 1. **Blink:** Mediante el comando ``digitalWrite`` y ``delay``, enciende y apaga el LED *on-board* del Arduino.
 2. **Servo:** Controla un motor servo mediante un potenciómetro, además de demostrar el uso del monitor serial.
