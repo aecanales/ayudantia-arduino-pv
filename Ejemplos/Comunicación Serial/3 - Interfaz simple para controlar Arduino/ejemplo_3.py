@@ -27,7 +27,7 @@ while not done:
         if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
             mpos = pygame.mouse.get_pos()  # Esto nos retorna la posición (x, y) del click.
 
-            # La función colliderpoint(mpos) nos retorna verdadeor si el
+            # La función colliderpoint(mpos) nos retorna verdadero si el
             # usuario hizo click dentro del botón respectivo.
             if on.collidepoint(mpos):
                 arduino.write('1'.encode())
