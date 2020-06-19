@@ -21,13 +21,13 @@ void loop() {
     lectura = Serial.read();
     
     /*
-    Para realizar la comparación, es necesario convertir la variable del tipo char
-    al tipo String. Según el valor que reciba, apagaremos o prenderemos el LED.
+    Para realizar la comparación, usaremos comillas simples dado que son carácteres, no strings. 
+    Según el valor que reciba, apagaremos o prenderemos el LED.
     */
-    if (String(lectura) == "0") {
+    if (lectura == '0') {
       digitalWrite(LED_BUILTIN, LOW);  
     }
-    if (String(lectura) == "1") {
+    if (lectura == '1') {
       digitalWrite(LED_BUILTIN, HIGH);  
     }
   }
