@@ -27,6 +27,9 @@ off_position = Rect(200, 100, 64, 64)
 
 done = False
 while not done:
+    # Boramos todo lo que está en la pantalla.
+    ventana.fill((0, 0, 0))
+
     # En cada instante, usamos "blit" para dibujar las imágenes "on" y "off" en sus posiciones correspondientes.
     ventana.blit(on, on_position)
     ventana.blit(off, off_position)
