@@ -12,9 +12,8 @@ Estos ejemplos requieren tener [Python 3+ instalado](https://www.python.org/down
 Para correrlos, deben primero conectar el Arduino y subirle el código en el archivo ``.ino`` y una vez subida, correr el archivo de Python ``.py`` en IDLE o su programa de preferencia. Ojo que la conexión serial es exclusiva, por lo que al establecer una conexión entre Arduino y Python, no se podrá abrir el monitor serial desde la IDE de Arduino. Por otro lado, si tienen abierto el monitor serial, al correr el archivo Python probablemente tire un error ya que el Arduino ya está conectado al monitor serial.
 1. **Leer Arduino desde Python:** Se envia un mensaje desde Arduino a Python, el cuál Python imprime en pantalla.
 2. **Mandar mensaje a Arudino desde Python:** Se envia un mensaje desde Python a Arduino para controlar un LED.
-3. **Interfaz simple para controlar Arduino:** Mediante ``pygame`` se crea una interfaz con dos botones para encender y apagar un LED.
-4. **Abrir video cuando se manda mensaje desde Arduino:** Mediante un mensaje mandado periodicamente por el Arduino se abren 2 videos en Python con ``opencv``.
-5. **Reproducir audio según señal Arduino:** Con la libreria ``playsound`` se reproduce un audio cada vez que el Arduino envia una señal.
+3. **Abrir video cuando se manda mensaje desde Arduino:** Mediante un mensaje mandado periodicamente por el Arduino se abren 2 videos en Python con ``opencv``.
+4. **Reproducir audio según señal Arduino:** Con la libreria ``playsound`` se reproduce un audio cada vez que el Arduino envia una señal.
 
 ## Interfaz Gráfica
 Estos ejemplos muestran paso a paso como armar una interfaz gráfica en `Python` para comunicarse con Arduino. Esta interfaz podrá
