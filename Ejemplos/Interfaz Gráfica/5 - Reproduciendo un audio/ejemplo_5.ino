@@ -35,6 +35,6 @@ void loop() {
     }
   }
 
-    
+  // Usamos println ahora ya que estamos enviando una lectura de un sensor.
   Serial.println(analogRead(A0));
 }
